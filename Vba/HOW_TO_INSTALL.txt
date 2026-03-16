@@ -1,0 +1,19 @@
+HOW TO ENABLE MULTI-SELECT SUBJECTS MACRO
+==========================================
+
+1. Open Student_Info_Template.xlsm in Microsoft Excel
+2. Press Alt + F11  (opens VBA Editor)
+3. In the left panel, double-click 'ThisWorkbook'
+4. Copy and paste the full content of ThisWorkbook.bas into that window
+5. Right-click the project > Insert > Module
+6. Copy and paste the full content of Module1.bas into that window
+7. Press Ctrl+S to save (keep as .xlsm)
+8. Close the VBA Editor
+9. If prompted, click 'Enable Macros' when opening the file
+
+RESULT:
+Clicking any cell in the Subjects column (J7:J106)
+will open a popup with checkboxes for:
+  Maths, Science, Social Science, Biology,
+  Physics, Chemistry, Computer Science
+Ticking subjects fills them comma-separated into the cell automatically.

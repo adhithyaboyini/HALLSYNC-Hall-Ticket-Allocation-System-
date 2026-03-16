@@ -1,0 +1,13 @@
+Drop all school Excel files here before running main.py
+
+Supported formats:
+  - Single school file  : Student_Info_Template.xlsm / .xlsx
+  - Multi-school file   : One sheet per school
+
+Example:
+  SCH101_AlphaSchool.xlsx
+  SCH102_BetaSchool.xlsx
+  SCH103_SCH104_MultiSchool.xlsx
+
+After placing files here, run:
+  python main.py

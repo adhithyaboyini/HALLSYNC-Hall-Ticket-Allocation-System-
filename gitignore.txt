@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Generated output — don't upload these to GitHub
+output/allocation_result.xlsx
+output/hall_tickets/
+data/Student_Info_Master.xlsx
+data/Submission_Status_Report.xlsx
+
+# Inbox — school submissions stay local, not on GitHub
+data/inbox/
+
+# Excel temp files
+~$*.xlsx
+~$*.xlsm
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
